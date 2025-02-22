@@ -324,4 +324,5 @@ function enableMetroLayer() {
     let popupContent = `<iframe width="400" height="300" src="${metroUrl}" frameborder="0" allowfullscreen></iframe>`;
     L.popup().setLatLng([center.lat, center.lng]).setContent(popupContent).openOn(map);
 }
+// updates
 
